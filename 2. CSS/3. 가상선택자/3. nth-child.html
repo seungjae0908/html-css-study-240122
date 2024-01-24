@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .fruits > li:nth-child(odd) {
+            color: red;
+        }
+        .fruits > li:nth-child(even) {
+            color: blue;
+        }
+        .fruits > li:nth-child(3) {
+            color: orange;
+        }
+
+        /*  n 키워드 사용시 0부터 해석 */
+        .fruits > li:nth-child(3n+1) {
+            color: violet;
+        }
+
+        /* .food의 첫번째 자식이 p가 아니기 때문에
+        지못해서 스타일을 지정할수 없습니다. */
+        .food > p:nth-of-type(1) {
+            font-style: italic;
+        }
+
+
+    </style>
+</head>
+<body>
+    <ul class="fruits">
+        <li>딸기</li>
+        <li>사과</li>
+        <li class="orange">오렌지</li>
+        <li>망고</li>
+        <li>바나나</li>
+        <li>복숭아</li>
+        <li>파인애플</li>
+    </ul>
+    
+<hr>
+
+<div class="food">
+    <div>짜장면</div>
+    <p>볶음밥</p>
+    <p>닭강정</p>
+    <span>짬뽕</span>
+</div>
+
+</body>
+</html>
