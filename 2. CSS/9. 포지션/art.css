@@ -1,0 +1,78 @@
+@import url(../../common.css);
+
+body {
+    background: gray;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+/* hearder 부분 */
+header {
+    background: orange;
+    color: white;
+    text-align: center;
+}
+#wrapper {
+ width: 80%;
+ margin: 0 auto;
+}
+#wrapper header h1 {
+    font-size: 4em;
+    font-weight: bold;
+}
+#wrapper header h1 span {
+    font-size: 0.3em
+    ;
+}
+#wrapper header h2 {
+    background: lightgray;
+
+}
+/* container 시작 */
+.container {
+    background: rgb(153, 134, 134);
+}
+.side-menu {
+    background: whitesmoke;
+    width: 25%;
+    padding: 10px;
+    float: left;
+}
+.side-menu h3 {
+    background: red;
+    color: white;
+    font-size: 1.1em;
+    padding: 5px;
+}
+.side-menu ul li {
+    text-decoration: underline;
+    margin: 2%;
+}
+
+/* main-content 시작 */
+.main-content {
+    width: 50%;
+    background: lightgray;
+}
+.art-piece {
+    height: 16.6%;
+}
+.main-content .art-piece h4 {
+    background: #0b2e52;
+    color: white;
+}
+
+
+/* banner 시작 */
+.banner {
+    width: 25%;
+    background: whitesmoke;
+float: right;
+}
+
+/* footer 시작 */
+footer {
+    background: #0b2e52;
+    color: white;
+    text-align: center;
+}
